@@ -6,7 +6,7 @@ import { scheduleMonthlyRecap } from "./jobs/monthlyRecapCron";
 async function bootstrap(): Promise<void> {
   await connectDatabase();
 
-  const bot = createBot();
+  const bot = await createBot();
 
   scheduleDebtReminder(bot);
   scheduleMonthlyRecap(bot);
