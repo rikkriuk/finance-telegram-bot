@@ -80,3 +80,67 @@ export const COMMANDS_HELP_TEXT = [
   "*Rekap*",
   "/rekap [MM-YYYY] - rekap transaksi & hutang bulan tertentu (default bulan ini)",
 ].join("\n");
+
+
+export const BOT_COMMAND_LIST = [
+  {
+    command: "start",
+    description: "Mulai & lihat daftar perintah",
+  },
+  {
+    command: "help",
+    description: "Bantuan & daftar perintah",
+  },
+  {
+    command: "tambahwallet",
+    description: "Buat wallet/bank baru",
+  },
+  {
+    command: "wallets",
+    description: "Lihat semua wallet & pemiliknya",
+  },
+  {
+    command: "saldo",
+    description: "Lihat saldo tiap wallet per pemilik",
+  },
+  {
+    command: "masuk",
+    description: "Catat pemasukan",
+  },
+  {
+    command: "keluar",
+    description: "Catat pengeluaran",
+  },
+  // {
+  //   command: "berhutang",
+  //   description: "Catat kamu berhutang ke orang lain",
+  // },
+  // {
+  //   command: "piutang",
+  //   description: "Catat orang lain berhutang ke kamu",
+  // },
+  // {
+  //   command: "bayarhutang",
+  //   description: "Bayar cicilan hutang kamu",
+  // },
+  // {
+  //   command: "tagihpiutang",
+  //   description: "Terima pembayaran piutang",
+  // },
+  // {
+  //   command: "hutangku",
+  //   description: "Daftar hutang & piutang aktif",
+  // },
+  // {
+  //   command: "spaylatersetup",
+  //   description: "Atur tagihan bulanan SPayLater",
+  // },
+  // {
+  //   command: "spaylaterbayar",
+  //   description: "Bayar tagihan SPayLater bulan ini",
+  // },
+  {
+    command: "rekap",
+    description: "Rekap transaksi bulanan",
+  },
+];
